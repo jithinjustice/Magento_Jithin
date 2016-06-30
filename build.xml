@@ -127,7 +127,7 @@
    <exec executable="${toolsdir}phpdox">
    <arg value="${phpdox.arg.value}" />
    <arg value="${basedir}/${phpdox.arg.path}" />
-
+ </exec>
  </target>
 
 
