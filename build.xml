@@ -48,7 +48,8 @@
 
  <target name="phploc" description="Measure project size using PHPLOC">
   <exec executable="${toolsdir}phploc">
-  <!--<exec executable="${basedir}/build/tools/phploc.phar">-->
+  <!<exec executable="${basedir}/build/tools/phploc.phar">
+  -->
    <arg value="--count-tests"/>
    <arg value="--log-csv"/>
    <arg path="${basedir}/build/logs/phploc.csv"/>
