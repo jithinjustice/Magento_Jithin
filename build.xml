@@ -135,6 +135,7 @@
    <arg value="${phpdox.arg.value}" />
    <arg value="${basedir}/${phpdox.arg.path}" />
   <!--<exec executable="${basedir}/build/tools/phpdox.phar" dir="${basedir}/build"/>-->
+   </exec>
  </target>
 
 
