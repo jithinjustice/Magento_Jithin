@@ -19,7 +19,7 @@
 
  <target name="generate-code" description="Generate Currency-specific subclasses of Ecomm and autoloader code">
 
-  <exec executable="${basedir}/build/tools/phpab.phar">
+
    <arg value="output"/>
    <arg path="src/autoload.php"/>
    <arg path="src"/>
