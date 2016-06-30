@@ -17,14 +17,7 @@
   <mkdir dir="${basedir}/build/pdepend"/>
  </target>
 
- <target name="generate-code" description="Generate Currency-specific subclasses of Ecomm and autoloader code">
 
-
-   <arg value="output"/>
-   <arg path="src/autoload.php"/>
-   <arg path="src"/>
-  </exec>
- </target>
 
 
  <target name="lint">
